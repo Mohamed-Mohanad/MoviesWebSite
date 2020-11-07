@@ -1,0 +1,135 @@
+@import url(font.css);
+body {
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+    background: url(pictures/homepage/cinema.jpg);
+    background-size: cover;
+}
+
+section {
+    width: 1280px;
+    margin: 0 auto 0;
+    padding-top: 170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+section .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+section .box .imgBox img {
+    width: 300px;
+    height: 300px;
+    transition: transform 2s;
+}
+
+section .box:hover .imgBox img {
+    transform: scale(1.2);
+}
+
+section .box .details {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+    background: rgba(0, 0, 0, 0.7);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+section .box:hover .details {
+    transform: scaleY(1);
+}
+
+section .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+section .box .details .content a {
+    color: blue;
+}
+
+section .box .details .content h2 {
+    margin: 0;
+    padding: 0;
+    color: #ff0;
+}
+
+section .box .details .content h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+section .imgBox {
+    position: sticky;
+    animation: imgani 2s;
+}
+
+@keyframes imgani {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.search-box {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    animation: searchani 2s;
+}
+
+.search-box:hover>.search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+@keyframes searchani {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

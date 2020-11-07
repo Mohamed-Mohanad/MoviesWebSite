@@ -1,0 +1,41 @@
+[{
+        "name": "Joker",
+        "image": "tablephoto/joker.png",
+        "date": "2019"
+    },
+    {
+        "name": "BloodShot",
+        "image": "tablephoto/blood2.jpg",
+        "date": "2020"
+    },
+    {
+        "name": "Titanic",
+        "image": "tablephoto/tit2.jpg",
+        "date": "1997"
+    },
+    {
+        "name": "Avengers Endgame",
+        "image": "tablephoto/ave2.jpg",
+        "date": "2019"
+    },
+    {
+        "name": "Doctor Sterange",
+        "image": "tablephoto/d.jpg",
+        "date": "2016"
+    },
+    {
+        "name": "Drag Me To Hell",
+        "image": "tablephoto/drag.jpg",
+        "date": "2009"
+    },
+    {
+        "name": "Fast And Furuios",
+        "image": "tablephoto/f.jpg",
+        "date": "2009"
+    },
+    {
+        "name": "John Wick 2",
+        "image": "tablephoto/jo.jpg",
+        "date": "2017"
+    }
+]

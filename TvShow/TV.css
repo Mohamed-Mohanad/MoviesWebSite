@@ -1,0 +1,105 @@
+img.ninja{
+	width: 250px; 
+	height: 350px;
+	margin-top: 100px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}
+img.kitchen{
+	width: 250px; 
+	height: 350px;
+	margin-top: 25px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}
+img.titan{
+	width: 250px; 
+	height: 350px;
+	margin-top: 25px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}img.mill{
+	width: 250px; 
+	height: 350px;
+	margin-top: 25px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}img.snl{
+	width: 250px; 
+	height: 350px;
+	margin-top: 25px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}img.talent{
+	width: 250px; 
+	height: 350px;
+	margin-top: 25px;
+	margin-left: 43%;
+	border: 3px solid #ed4e49;
+}
+.hov:hover {
+  border: 3px solid black;
+  	
+}
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	background-image: url("mainbg.jpg");
+
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+input:hover> #myUL a{
+	display: block;
+
+
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+div.bar{
+	Position: absolute;
+    top:13%;
+    right:10%;
+    
+}
+button{
+	Position: absolute;
+	top:3%;
+    right:100%;
+    width: 50px;
+    height: 75px;
+    border-radius: 8px;
+
+
+}
